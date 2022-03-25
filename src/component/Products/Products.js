@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
-import Summary from '../Summary/Summary';
 import './Products.css'
 
 const Products = () => {
@@ -15,11 +14,8 @@ const Products = () => {
 
 
     const handleAddButton = (product) => {
-        console.log(product);
         const newSummary = [...summary, product];
         setSummary(newSummary);
-        console.log(summary);
-
     }
 
     return (
@@ -38,7 +34,7 @@ const Products = () => {
                 <h4 className='text-center'>Selected Clothes</h4>
 
             {
-                summary.map(product => <p key={product.id}>{product.name}</p>)
+                summary.map(product => <p key={product.id}> Name: {product.name}</p>)
             }
             </div>
 
