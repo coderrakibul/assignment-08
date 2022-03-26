@@ -20,7 +20,8 @@ const Products = () => {
     }
 
     const removeItem = () => {
-        document.getElementById("remove-item").innerHTML = [];
+        const newCart = [];
+        setCart(newCart);
     }
 
     return (
