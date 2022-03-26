@@ -20,8 +20,8 @@ const Products = () => {
     }
 
     const removeItem = () => {
-        const newCart = [];
-        setCart(newCart);
+        const removeCart = [];
+        setCart(removeCart);
     }
 
     return (
