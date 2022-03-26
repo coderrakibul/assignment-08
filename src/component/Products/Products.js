@@ -42,6 +42,8 @@ const Products = () => {
 
                     ></Cart>)
                 }
+                <button className='btn mt-3 btn-success fw-bold'>Choose 1 For Me</button>
+                <button className='btn mt-3 btn-warning fw-bold'>Choose Again</button>
             </div>
 
         </div>

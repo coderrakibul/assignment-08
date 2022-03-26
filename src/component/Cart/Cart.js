@@ -6,7 +6,7 @@ const Cart = (props) => {
     return (
         <div className='d-flex cart'>
            <img className='cart-image me-2 mb-2' src={img}alt="" />
-           <h6>Name:{name}</h6>
+           <h6>Name: {name}</h6>
         </div>
     );
 };
