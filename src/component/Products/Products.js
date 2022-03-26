@@ -46,8 +46,8 @@ const Products = () => {
 
                     ></Cart>)
                 }
-                <button className='btn mt-3 btn-success fw-bold'>Choose 1 For Me</button>
-                <button onClick={removeItem} className='btn mt-3 btn-warning fw-bold'>Reset</button>
+                <button className='btn mt-3 btn-success fw-bold d-block'>Choose 1 For Me</button>
+                <button onClick={removeItem} className='btn mt-3 btn-warning fw-bold d-block'>Reset</button>
             </div>
 
         </div>
