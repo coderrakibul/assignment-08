@@ -18,3 +18,12 @@
   left: 0;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .product {
+    height: 320px;
+  }
+  .product img {
+    height: 150px;
+  }
+}
