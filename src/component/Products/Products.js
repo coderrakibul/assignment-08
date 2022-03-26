@@ -38,7 +38,6 @@ const Products = () => {
 
             <div className='cart-container'>
                 <h4 className='text-center mt-3 mb-3'>Selected Cars</h4>
-                <div id='remove-item'>
                 {
                          cart.map(product => <Cart
                         key={product.id}
@@ -47,7 +46,6 @@ const Products = () => {
 
                     ></Cart>)
                 }
-                </div>
                 <button className='btn mt-3 btn-success fw-bold'>Choose 1 For Me</button>
                 <button onClick={removeItem} className='btn mt-3 btn-warning fw-bold'>Reset</button>
             </div>
