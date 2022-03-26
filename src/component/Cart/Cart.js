@@ -2,9 +2,11 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
+    const {name, img} = props;
     return (
-        <div>
-           <h6>Name: {props.name}</h6>
+        <div className='d-flex cart'>
+           <img className='cart-image me-2 mb-2' src={img}alt="" />
+           <h6>Name:{name}</h6>
         </div>
     );
 };

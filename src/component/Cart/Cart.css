@@ -1,0 +1,8 @@
+.cart{
+    align-items: center;
+}
+.cart-image{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}

@@ -38,6 +38,7 @@ const Products = () => {
                     cart.map(product => <Cart
                         key={product.id}
                         name={product.name}
+                        img={product.img}
 
                     ></Cart>)
                 }
